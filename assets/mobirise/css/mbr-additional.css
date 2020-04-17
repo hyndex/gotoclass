@@ -1107,18 +1107,29 @@ section.lazy-placeholder:after {
 .cid-rWoZUir3BQ {
   background-image: url("../../../assets/images/631-2000x1000.jpg");
 }
-.cid-rWoZYuR55R {
+.cid-rWpsUP9ZqE {
   background-image: url("../../../assets/images/20670-2000x1128.jpg");
 }
-.cid-rWoZYuR55R .mbr-section-subtitle {
-  letter-spacing: .2rem;
+.cid-rWpsUP9ZqE .form-control,
+.cid-rWpsUP9ZqE .form-control:focus {
+  background: #ffffff;
+  border: 1px solid #ffffff;
 }
-.cid-rWoZYuR55R .media-container-column {
-  background-color: #4f4943;
+.cid-rWpsUP9ZqE .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
 }
-@media (max-width: 767px) {
-  .cid-rWoZYuR55R .media-container-column {
-    padding: 1rem !important;
+.cid-rWpsUP9ZqE textarea.form-control {
+  min-height: 188px;
+}
+.cid-rWpsUP9ZqE .input-group-btn {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (min-width: 768px) {
+  .cid-rWpsUP9ZqE .content-container {
+    padding-right: 5rem;
   }
 }
 .cid-rWpiLTq65f {
